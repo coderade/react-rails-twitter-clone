@@ -13,4 +13,13 @@
 !/log/.keep
 !/tmp/.keep
 
+# Ignore Byebug command history file.
 .byebug_history
+
+
+# User-specific stuff:
+.idea
+.idea/vcs.xml
+
+# Database settings
+config/database.yml
