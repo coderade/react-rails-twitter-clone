@@ -13,6 +13,7 @@
 !/log/.keep
 !/tmp/.keep
 
+
 # Ignore Byebug command history file.
 .byebug_history
 
@@ -20,3 +21,6 @@
 # User-specific stuff:
 .idea
 .idea/vcs.xml
+
+# Client-side stuff:
+node_modules

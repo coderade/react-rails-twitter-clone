@@ -1,12 +1,17 @@
+import React from 'react'
+import ReactDOM from 'react-dom'
+import Greet from './greet'
+import $ from 'jquery'
+
 class Main extends React.Component {
-    render(){
+    render() {
         return (
-            <h1>Hello from the component</h1>
+            <Greet />
         );
     }
 }
 
-let documentReady = () =>{
+let documentReady = () => {
     ReactDOM.render(
         <Main/>,
         document.getElementById('react')
