@@ -15,4 +15,5 @@
 //= require jquery
 //= require jquery_ujs
 //= require react
+//= require materialize
 //= require_tree .
