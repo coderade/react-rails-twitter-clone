@@ -1,11 +1,13 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
 import $ from 'jquery'
-
+import TweetBox from './components/TweetBox'
 class Main extends React.Component {
     render() {
         return (
-            <h1>Test</h1>
+            <div className="container">
+                <TweetBox />
+            </div>
         );
     }
 }
