@@ -3,7 +3,7 @@ import React from 'react'
 export default class TweetBox extends React.Component {
     render() {
         return (
-            <div>
+            <div className="row">
                 <form className="input-field">
                     <textarea className="materialize-textarea"/>
                     <label> { "What's happening" }</label>
