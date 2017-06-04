@@ -3,8 +3,6 @@ import PropTypes from 'prop-types'
 import Tweet from './Tweet'
 
 export default class TweetList extends React.Component {
-
-
     render(){
         let tweets = this.props.tweets.map(tweet => <Tweet key={tweet.id} {...tweet}/>);
         return (
@@ -17,5 +15,5 @@ export default class TweetList extends React.Component {
     }
 }
 TweetList.propTypes = {
-    tweets: PropTypes.array.isRequired,
+    tweets: PropTypes.array.isRequired
 };

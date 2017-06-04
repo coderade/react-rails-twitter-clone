@@ -1,4 +1,5 @@
 import React from 'react'
+import PropTypes from 'prop-types'
 
 export default class Tweet extends React.Component {
     render() {
@@ -12,3 +13,7 @@ export default class Tweet extends React.Component {
         )
     }
 }
+Tweet.propTypes = {
+    name: PropTypes.string.isRequired,
+    body: PropTypes.string.isRequired,
+};
