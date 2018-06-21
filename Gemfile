@@ -7,13 +7,13 @@ end
 
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-gem 'rails', '~> 5.1.1'
+gem 'rails', '~> 5.1.6'
 # Use postgresql as the database for Active Record
 gem 'pg', '~> 0.18'
 # Use Puma as the app server
 gem 'puma', '~> 3.7'
 # Use SCSS for stylesheets
-gem 'sass-rails', '~> 5.0', '>= 5.0.6'
+gem 'sass-rails', '~> 5.0', '>= 5.0.7'
 
 # Add Sass Materialize gem
 gem 'materialize-sass'
