@@ -33,7 +33,7 @@
     "style-loader": "^0.18.1",
     "webpack-manifest-plugin": "^1.1.0",
     "webpack-merge": "^4.1.0",
-    "snyk": "^1.230.5"
+    "snyk": "^1.277.3"
   },
   "description": "This README would normally document whatever steps are necessary to get the application up and running.",
   "version": "1.0.0",
@@ -44,7 +44,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "snyk-protect": "snyk protect",
-    "prepare": "npm run snyk-protect",
+    "prepare": "yarn run snyk-protect",
     "prepublish": "npm run snyk-protect"
   },
   "repository": {
