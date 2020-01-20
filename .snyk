@@ -85,6 +85,24 @@ patch:
         patched: '2020-01-10T11:36:17.949Z'
     - snyk > snyk-nodejs-lockfile-parser > graphlib > lodash:
         patched: '2020-01-10T11:36:17.949Z'
+    - css-loader > lodash:
+        patched: '2020-01-20T10:59:31.638Z'
+    - snyk > inquirer > lodash:
+        patched: '2020-01-20T10:59:31.638Z'
+    - snyk > snyk-config > lodash:
+        patched: '2020-01-20T10:59:31.638Z'
+    - snyk > @snyk/dep-graph > graphlib > lodash:
+        patched: '2020-01-20T10:59:31.638Z'
+    - snyk > snyk-go-plugin > graphlib > lodash:
+        patched: '2020-01-20T10:59:31.638Z'
+    - snyk > snyk-nodejs-lockfile-parser > graphlib > lodash:
+        patched: '2020-01-20T10:59:31.638Z'
+    - snyk > snyk-nuget-plugin > dotnet-deps-parser > lodash:
+        patched: '2020-01-20T10:59:31.638Z'
+    - snyk > @snyk/snyk-cocoapods-plugin > @snyk/dep-graph > graphlib > lodash:
+        patched: '2020-01-20T10:59:31.638Z'
+    - snyk > @snyk/snyk-cocoapods-plugin > @snyk/cocoapods-lockfile-parser > @snyk/dep-graph > graphlib > lodash:
+        patched: '2020-01-20T10:59:31.638Z'
   SNYK-JS-HTTPSPROXYAGENT-469131:
     - snyk > proxy-agent > https-proxy-agent:
         patched: '2019-10-04T02:21:16.317Z'
