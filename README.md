@@ -1,4 +1,4 @@
-# react-twitter-clone
+# react-rails-twitter-clone
 
 A Twitter clone created with Rails 5 and React.
 
