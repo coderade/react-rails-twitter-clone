@@ -33,7 +33,7 @@
     "style-loader": "^0.20.0",
     "webpack-manifest-plugin": "^1.1.0",
     "webpack-merge": "^4.1.0",
-    "snyk": "^1.465.0"
+    "snyk": "^1.667.0"
   },
   "description": "This README would normally document whatever steps are necessary to get the application up and running.",
   "version": "1.0.0",
