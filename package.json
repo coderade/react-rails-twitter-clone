@@ -18,7 +18,7 @@
     "glob": "^7.1.2",
     "jquery": "^3.5.0",
     "js-yaml": "^3.13.1",
-    "node-sass": "^4.14.1",
+    "node-sass": "^5.0.0",
     "path-complete-extname": "^1.0.0",
     "postcss-loader": "^2.0.5",
     "postcss-smart-import": "^0.7.6",
@@ -33,7 +33,7 @@
     "style-loader": "^0.20.0",
     "webpack-manifest-plugin": "^1.1.0",
     "webpack-merge": "^4.1.0",
-    "snyk": "^1.667.0"
+    "@snyk/protect": "latest"
   },
   "description": "This README would normally document whatever steps are necessary to get the application up and running.",
   "version": "1.0.0",
@@ -43,7 +43,7 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "snyk-protect": "snyk protect",
+    "snyk-protect": "snyk-protect",
     "prepare": "yarn run snyk-protect",
     "prepublish": "npm run snyk-protect"
   },
